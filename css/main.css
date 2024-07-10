@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background: #24353f;
+  color: #17a2b8;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.form-control {
+  width: 60%;
+}
+#logout-button {
+  position: absolute;
+  right: 10%;
+}
+#welcome-message {
+  font-size: 37px;
+}

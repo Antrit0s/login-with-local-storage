@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+
+
+    <div class="container">
+        <form class="justify-content-center align-items-center vh-100" id="signup-form">
+            <h1>Sign Up / Sign In</h1>
+            <label for="username">Username:</label>
+            <input class="form-control p-2" type="text" id="username" name="username" required
+                placeholder="Enter your username">
+            <br>
+            <label for="password">Password:</label>
+            <input class="form-control p-2 mt-2" type="password" id="password" name="password" required
+                placeholder="Write password here">
+            <input class="mt-2" type="checkbox" id="show-password">
+            <label for="show-password">Show Password</label>
+            <br>
+            <div id="user-type">
+                <input type="radio" id="sign-up-radio" name="user-type" checked>
+                <label for="sign-up-radio">Sign Up</label>
+                <input type="radio" id="sign-in-radio" name="user-type">
+                <label for="sign-in-radio">Sign In</label>
+            </div>
+            <button class="btn btn-primary m-3" type="submit">Submit</button>
+            <div class="alert alert-danger d-none">please make sure to enter your name and password</div>
+        </form>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
