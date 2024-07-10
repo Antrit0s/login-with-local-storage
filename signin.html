@@ -10,26 +10,29 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark group ">
-        <div class="container justify-content-between d-flex">
-            <a class="navbar-brand" href="#">SMART LOGIN</a>
-            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
-                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">SMART LOGIN</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse" id="navbarSupportedContent">
-                <button class="btn btn-danger" id="logout-button">Logout</button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <button class="btn btn-danger" id="logout-button">Logout</button>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
-
-
-    <div class="welcome-div d-flex flex-column justify-content-center align-items-center">
-        <h1>Welcome!</h1>
-        <p id="welcome-message"></p>
+    <div class="container">
+        <div class="welcome-div d-flex flex-column justify-content-center align-items-center mt-5">
+            <h1>Welcome!</h1>
+            <p id="welcome-message" class="fs-1"></p>
+        </div>
     </div>
-
     <script src="js/bootstrap.min.js"></script>
     <script src="js/sing in.js"></script>
     <!-- <script src="js/main.js"></script> -->

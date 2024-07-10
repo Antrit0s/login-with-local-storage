@@ -23,10 +23,17 @@ form {
 .form-control {
   width: 60%;
 }
+
 #logout-button {
   position: absolute;
-  right: 10%;
+  right: 5%;
+  top: 10px;
 }
-#welcome-message {
-  font-size: 37px;
+
+@media (max-width: 768px) {
+  #logout-button {
+    position: absolute;
+    right: 0;
+    top: 53px;
+  }
 }
